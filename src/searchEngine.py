@@ -1,6 +1,6 @@
 from langchain.document_loaders import PyPDFLoader
 from langchain.vectorstores import FAISS
-from langchain_huggingface import HuggingFaceEmbeddings  # ✅ Updated import
+from langchain_huggingface import HuggingFaceEmbeddings 
 
 # Load PDF and extract text
 pdf_path = "../Documents/llm.pdf"
